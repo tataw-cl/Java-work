@@ -68,12 +68,9 @@ public static void main(String[] args){
 	myStack.push(20);
 	myStack.push(50);
 	myStack.push(15);
-	myStack.push(78);
+	myStack.pop();
 	myStack.push(33);
 	myStack.push(19);
 	myStack.PrintS();
-	// System.out.println(myStack.stack[myStack.top+1]);
-	// System.out.printf("\n\n\n%d",myStack.top+1);
-
 }
 }
