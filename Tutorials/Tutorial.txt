@@ -1,0 +1,37 @@
+Task A:
+Write a class called Rectangle with two properties: length and width and a method area() to find
+the area of the rectangle. Use constructors to pass the parameters. Use the concept of inheritance
+to create a new class call Box, which has length, width, and height, and two methods: area(), which
+rather calculates the surface area of the box, and volume() method which finds the volume of the
+box.
+
+Task B:
+Propose an interface called LivingOrganism which has the void methods movementsWith(),
+eatsWith(). Construct two classes: Animal and Plant which use the interface LivingOrganism.
+Animals move with their legs and eat with their mouths, while plants don’t move, and eat with their
+roots. Use a simple Java program to demonstrate the usage of your classes.
+NB: Use simple print function to display the functioning of a method. Example: eatsWith() for Animal
+class can display: “Animals eat with their Mouths”.
+
+Task C:
+Create a class called “JewelleryBox” which has properties: material, color and two methods, one to
+determine whether the box is full, and another if the box is empty. In the Jewellery Box, declare a
+class called Diamond which has properties: weight and karats (quality), and a method called
+unboxDiamond() to remove the Diamond from the JewelleryBox.
+Write a simple Java program which demonstrates theses classes, and how a program can be used
+to remove a particular diamond from the JewelleryBox. Use simple print statements to implement
+the methods.
+
+Task D:
+Propose a class "Car", where a car has type from the set {sedan, hatchback, truck} only,
+matriculation number, number of doors, horsepower, and owner. The owner of the car is also a
+class consisting of the first name, surname name, gender and telephone contact. Implement
+methods to Start and Stop the car, introducing any member variable to help in the process. Write a
+Java program which uses the Car class.
+
+Task E:
+Create a class called “Parent” with two properties: Surname and first Name, and a method
+whoIsThisParent(), which displays the parent’s name. In the parent class propose another class
+called “Child” which has property: first Name only, and a method WhoIsThisChild(), which
+displays the name of the child. Remember the child’s name is the parent’s surname name, and the
+child’s first name
