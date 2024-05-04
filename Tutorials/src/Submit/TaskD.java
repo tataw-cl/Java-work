@@ -1,9 +1,10 @@
 package Submit;
+//enum is a special "class" that represents a group of constants (unchangeable variables, like final variables).
 class Car{
-    Type type;
-    public enum Type {
+    public enum Type {//enum declaration inside a class
         SEDAN, HATCHBACK, TRUCK
     }
+    Type type;//enum variable called type
     String Matriculation;
     int numberOfDoors;
     int horsePower;
@@ -36,8 +37,8 @@ class Car{
 // Path: TaskD.java main method
     public class TaskD{
         public static void main(String[] args){
-            Car c1 = new Car();
-            c1.type = Car.Type.SEDAN;
+            Car c1 = new Car();//creating an object of the class Car
+            c1.type = Car.Type.SEDAN;//assigning a value to the enum variable type
             c1.startEngine();
             c1.accelerate();
             c1.turnLeft();

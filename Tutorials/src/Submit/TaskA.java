@@ -13,10 +13,10 @@ class Rectangle{
 		return length*width;
 	}
 }
-class Box extends Rectangle{
+class Box extends Rectangle{//inheritance from Rectangle
 	private float height;
 	public Box(float l, float w, float h) {
-		super(l,w);
+		super(l,w);//calling the constructor of the parent class
 		this.height=h;
 	}
 	protected float Area(){

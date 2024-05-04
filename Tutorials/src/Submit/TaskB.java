@@ -1,12 +1,12 @@
 package Submit;
-interface LivingOrganism{
+interface LivingOrganism{//interface declaration for living organisms
 	void movementWith();
 	void eatsWith();
 }
 
 class Animal implements LivingOrganism{
 	//implementing the interface for living organisms
-
+	//First override
 	public void eatsWith() {
 		System.out.println("Animals eat with their mouths");
 	}

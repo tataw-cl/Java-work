@@ -1,5 +1,5 @@
 package Submit;
-class JewelleryBox{
+class JewelleryBox{//outer class
 	String material;
 	String color;
 	public static int state=0;
@@ -24,7 +24,8 @@ class JewelleryBox{
 		}
 	}
 	
-	 class Diamond{
+	 class Diamond{//inner class
+		public
 		Diamond(){
             JewelleryBox.state=1;
         }
@@ -39,8 +40,8 @@ class JewelleryBox{
 
 public class TaskC {
  public static void main(String[] args) {
-	 JewelleryBox Box1=new JewelleryBox();
-	 JewelleryBox.Diamond Diamond1=Box1.new Diamond();
+	 JewelleryBox Box1=new JewelleryBox();//creating an object of the outer class
+	 JewelleryBox.Diamond Diamond1=Box1.new Diamond();//creating an object of the inner class
 	 Diamond1.weigth=23.5;
 	 Diamond1.karats=30.7;
 	 Diamond1.unboxDiamond();

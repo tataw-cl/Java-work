@@ -71,6 +71,7 @@ public static void main(String[] args){
 	myStack.pop();
 	myStack.push(33);
 	myStack.push(19);
+	myStack.peek();
 	myStack.PrintS();
 }
 }
