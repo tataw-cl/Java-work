@@ -7,9 +7,10 @@ This repository contains a collection of Java tutorials.
 The `src/Submit` directory contains the following Java files:
 
 - `TaskA.java`: This file demonstrates how to perform inheritance and how to call and use contructors from the parent class in the child "Box" class
-
 - `TaskB.java`: This file illustrates the concept of interfaces and provides an example implementation.
-- `TaskC.java`: This file illustrates the concept of local innner classes and how to access and declare values from the superclass, innerclass in the the main public function which is called 'TaskC'. -`TaskD.java`: -`TaskD.java`: This file illustrates the concept of enumerrators. It gives an example of enum declaration, instantiation and enum call in the main body. -`TaskE.java`: This file with the aid of an example implementation illustrates the concept of inner classes and accessing values of the outer class from the inner class for manipulation using the "Outerclass.this.Value" method.
+- `TaskC.java`: This file illustrates the concept of local innner classes and how to access and declare values from the superclass, innerclass in the the main public function which is called 'TaskC'.
+- `TaskD.java`: This file illustrates the concept of enumerrators. It gives an example of enum declaration, instantiation and enum call in the main body.
+- `TaskE.java`: This file with the aid of an example implementation illustrates the concept of inner classes and accessing values of the outer class from the inner class for manipulation using the "Outerclass.this.Value" method.
 
 ## Running the Java Files
 
