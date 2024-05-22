@@ -42,7 +42,6 @@ public class GUI1 implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		// TODO Auto-generated method stub
 		count ++;
 		label.setText("Number of Clicks: "+count);
 	}
